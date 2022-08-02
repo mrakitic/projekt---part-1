@@ -260,6 +260,214 @@
   padding-left: 2rem;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120rem;
+  height: 99.3125rem;
+  background-color: #333333;
+}
+
+.card-content-title {
+  display: flex;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-top: 4rem;
+}
+
+.section-one {
+  width: 120rem;
+  height: 27.1875rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-two {
+  width: 120rem;
+  height: 27.1875rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10.8125rem;
+}
+
+.main-content-title {
+  font-family: "Raleway";
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.main-content-text {
+  font-family: "Raleway";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-top: 0;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 43.5rem;
+  height: 27.1875rem;
+}
+
+.main-text-two {
+  display: flex;
+  flex-direction: column;
+  width: 43.5rem;
+  height: 27.1875rem;
+}
+
+.image-one {
+  width: 41.5rem;
+  height: 30rem;
+  border-right: solid 2rem #87de87;
+}
+
+.image-two {
+  width: 41.5rem;
+  height: 30rem;
+  border-left: solid 2rem #87de87;
+}
+
+.main-button {
+  background-color: #87de87;
+  width: 16.5rem;
+  height: 4.5rem;
+  border-radius: 0.75rem;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-top: 10rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120rem;
+  height: 40rem;
+  margin-top: 6.5rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 3.375rem;
+}
+
+.card-main-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.card-one,
+.card-two,
+.card-three {
+  background-color: #333333;
+  height: 21.75rem;
+  width: 34.5rem;
+}
+
+.card-logo-title {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  gap: 1.4rem;
+}
+
+.card-title-subtitle {
+  display: flex;
+  flex-direction: column;
+  height: 3.5rem;
+}
+
+.card-one-logo {
+  width: 7.5rem;
+  height: 7.5rem;
+  background-color: #87de87;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-image: url("../images/world.svg");
+}
+
+.card-two-logo {
+  width: 7.5rem;
+  height: 7.5rem;
+  background-color: #87de87;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-image: url("../images/solar.svg");
+}
+
+.card-three-logo {
+  width: 7.5rem;
+  height: 7.5rem;
+  background-color: #87de87;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-image: url("../images/wind.svg");
+}
+
+.card-title {
+  display: flex;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 0.625rem;
+}
+
+.card-subtitle {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.card-text {
+  display: flex;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #ffffff;
+  width: 30.375rem;
+  height: 9.1875rem;
+  padding-left: 2rem;
+}
+
+.imput-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120rem;
+  height: 40rem;
+}
+
+.imput-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 7.5rem;
+}
+
 body {
   min-height: 95vh;
   margin: auto 0;

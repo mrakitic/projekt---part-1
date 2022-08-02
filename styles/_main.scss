@@ -1,0 +1,86 @@
+@import "_variables";
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120rem;
+  height: 99.3125rem;
+  background-color: $black-color;
+}
+
+.card-content-title {
+  display: flex;
+  font-family: $font;
+  font-weight: 700;
+  font-size: 3rem;
+  color: $white-color;
+  margin-top: 4rem;
+}
+
+.section-one {
+  width: 120rem;
+  height: 27.1875rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-two {
+  width: 120rem;
+  height: 27.1875rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10.8125rem;
+}
+
+.main-content-title {
+  font-family: $font;
+  color: $white-color;
+  font-weight: 600;
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.main-content-text {
+  font-family: $font;
+  color: $white-color;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-top: 0;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 43.5rem;
+  height: 27.1875rem;
+}
+.main-text-two {
+  display: flex;
+  flex-direction: column;
+  width: 43.5rem;
+  height: 27.1875rem;
+}
+
+.image-one {
+  width: 41.5rem;
+  height: 30rem;
+  border-right: solid 2rem $green-color;
+}
+
+.image-two {
+  width: 41.5rem;
+  height: 30rem;
+  border-left: solid 2rem $green-color;
+}
+
+.main-button {
+  background-color: $green-color;
+  width: 16.5rem;
+  height: 4.5rem;
+  border-radius: 0.75rem;
+  font-family: $font;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-top: 10rem;
+}

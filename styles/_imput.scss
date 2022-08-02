@@ -1,0 +1,19 @@
+@import "_variables";
+@import "_card";
+
+.imput-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120rem;
+  height: 40rem;
+}
+
+.imput-title {
+  display: flex;
+  justify-content: center;
+  font-family: $font;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 7.5rem;
+}
