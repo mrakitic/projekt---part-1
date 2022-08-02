@@ -468,6 +468,63 @@
   margin-top: 7.5rem;
 }
 
+.imput-para {
+  width: 52.5rem;
+  height: 3.875rem;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.email-imput {
+  width: 43.5rem;
+  height: 4rem;
+  margin-top: 2.75rem;
+  border-radius: 0.75rem;
+  border: 0.0313rem solid rgba(73, 72, 72, 0.5);
+}
+
+.email-imput::-moz-placeholder {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.125rem;
+  color: #333333;
+  padding-left: 1.25rem;
+}
+
+.email-imput:-ms-input-placeholder {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.125rem;
+  color: #333333;
+  padding-left: 1.25rem;
+}
+
+.email-imput::placeholder {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.125rem;
+  color: #333333;
+  padding-left: 1.25rem;
+}
+
+.imput-button {
+  width: 7.5rem;
+  height: 3rem;
+  background-color: #87de87;
+  border-radius: 0.75rem;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: -130px;
+  margin-top: 0.5rem;
+  border: none;
+}
+
 body {
   min-height: 95vh;
   margin: auto 0;
