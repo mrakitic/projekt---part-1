@@ -1,0 +1,100 @@
+@import "_variables";
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120rem;
+  height: 40rem;
+  margin-top: 6.5rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 3.375rem;
+}
+
+.card-main-title {
+  display: flex;
+  justify-content: center;
+  font-family: $font;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.card-one,
+.card-two,
+.card-three {
+  background-color: $black-color;
+  height: 21.75rem;
+  width: 34.5rem;
+}
+
+.card-logo-title {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  gap: 1.4rem;
+}
+
+.card-title-subtitle {
+  display: flex;
+  flex-direction: column;
+  height: 3.5rem;
+}
+
+@mixin cardLogo() {
+  width: 7.5rem;
+  height: 7.5rem;
+  background-color: $green-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.card-one-logo {
+  @include cardLogo();
+  background-image: url("../images/world.svg");
+}
+
+.card-two-logo {
+  @include cardLogo();
+  background-image: url("../images/solar.svg");
+}
+
+.card-three-logo {
+  @include cardLogo();
+  background-image: url("../images/wind.svg");
+}
+
+.card-title {
+  display: flex;
+  font-family: $font;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: $white-color;
+  margin-bottom: 0.625rem;
+}
+
+.card-subtitle {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: $white-color;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.card-text {
+  display: flex;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: $white-color;
+  width: 30.375rem;
+  height: 9.1875rem;
+  padding-left: 2rem;
+}

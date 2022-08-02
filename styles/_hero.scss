@@ -1,0 +1,48 @@
+@import "_navbar";
+@import "_variables";
+
+.hero {
+  display: flex;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 14.25rem;
+  background-image: url("../images/energy-2181904_1920-1.jpg");
+  width: 120rem;
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position: 0 -320px;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 37.1875rem;
+  height: 14.25rem;
+  background-color: $black-color;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  border-left: solid 2rem $green-color;
+}
+
+.hero-title {
+  font-family: $font;
+  color: $white-color;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top: 0.5rem;
+}
+
+.hero-para {
+  font-family: $font;
+  color: $white-color;
+  font-size: 1.125rem;
+  font-weight: 400;
+  width: 34.5rem;
+  height: 5.25rem;
+  padding-top: 2rem;
+}
