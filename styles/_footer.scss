@@ -1,0 +1,31 @@
+@import "_variables";
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120rem;
+  height: 3rem;
+  background-color: $black-color;
+}
+
+#current_date {
+  color: $white-color;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-left: 6.75rem;
+}
+
+.footer-security {
+  color: $white-color;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.footer-flex {
+  display: flex;
+  gap: 2.25rem;
+  margin-right: 6.75rem;
+}

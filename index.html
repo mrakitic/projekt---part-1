@@ -190,9 +190,64 @@
             class="email-imput"
             placeholder="example@email.com"
           />
-          <button class="imput-button">SEND</button>
+          <button type="button" class="imput-button">SEND</button>
         </form>
       </div>
     </section>
+    <section>
+      <div class="about-us">
+        <div class="about-contact">
+          <div class="about-logo"><p class="about-name">PanDoo</p></div>
+        </div>
+
+        <div class="about-columns">
+          <ul>
+            <li class="about-title-main">Company Name</li>
+            <li class="about-content">Kralja Zvonimira 35</li>
+            <li class="about-content">21000 Split</li>
+            <li class="about-content">hello@companyname.com</li>
+            <li class="about-content">+385 21 323 044</li>
+          </ul>
+
+          <ul>
+            <li class="about-title">Products</li>
+            <a href="#"><li class="about-content">Pricing</li></a>
+            <a href="#"><li class="about-content">Testimonials</li></a>
+            <a href="#"><li class="about-content">Get it Now</li></a>
+          </ul>
+          <ul>
+            <li class="about-title">Company</li>
+            <a href="#"><li class="about-content">About</li></a>
+            <a href="#"><li class="about-content">Blog</li></a>
+            <a href="#"><li class="about-content">Contact</li></a>
+          </ul>
+          <ul>
+            <li class="about-title">Follow us</li>
+            <li class="about-title-logos">
+              <a href="#"><div class="about-box-one"></div></a>
+              <a href="#"><div class="about-box-two"></div></a>
+              <a href="#"><div class="about-box-three"></div></a>
+              <a href="#"><div class="about-box-four"></div></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-content">
+      <div id="current_date">
+        <script>
+          date = new Date();
+          year = date.getFullYear();
+          month = date.getMonth() + 1;
+          day = date.getDate();
+          document.getElementById("current_date").innerHTML =
+            day + "." + month + "." + year + "." + " © PanDoo";
+        </script>
+      </div>
+      <div class="footer-flex">
+        <p class="footer-security">GDPR</p>
+        <p class="footer-security">Privacy</p>
+      </div>
+    </footer>
   </body>
 </html>
