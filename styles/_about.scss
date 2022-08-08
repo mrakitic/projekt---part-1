@@ -1,41 +1,34 @@
 @import "_variables";
 
-.about-us {
-  width: 120rem;
+.about {
+  width: 100%;
   height: 26.5rem;
   background-color: $green-color;
   padding-top: 0.1rem;
 }
 
-.about-logo {
+.about__contact img {
   width: 13.9375rem;
   height: 4.875rem;
-  background-color: $white-color;
-  margin-left: 10.9375rem;
+  padding-top: 3rem;
+  padding-left: 9.5rem;
 }
 
-.about-name {
-  font-family: $font;
-  font-size: 3.8rem;
-  font-weight: 500;
-  padding-top: 2rem;
-}
-
-.about-columns {
+.about__columns {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 120rem;
+  width: 100%;
   padding-top: 1.875rem;
 }
 
-.about-title {
+.about__title {
   font-family: $font;
   font-weight: 600;
   font-size: 1.125rem;
 }
 
-.about-title-main {
+.about__title-main {
   font-family: $font;
   font-weight: 600;
   font-size: 1.5rem;
@@ -50,20 +43,20 @@
   background-position: center;
 }
 
-.about-box-one {
+.about__box-one {
   @include aboutLogo();
   background-image: url("../images/facebook.svg");
 }
 
-.about-box-two {
+.about__box-two {
   @include aboutLogo();
   background-image: url("../images/twitter.svg");
 }
-.about-box-three {
+.about__box-three {
   @include aboutLogo();
   background-image: url("../images/linkedin.svg");
 }
-.about-box-four {
+.about__box-four {
   @include aboutLogo();
   background-image: url("../images/youtube.svg");
 }
@@ -76,13 +69,13 @@ a {
   text-decoration: none;
 }
 
-.about-title-logos {
+.about__logo {
   margin-top: 1.125rem;
   display: flex;
   gap: 1.5rem;
 }
 
-.about-content {
+.about__content {
   color: $black-color;
   font-family: $font;
   font-weight: 400;

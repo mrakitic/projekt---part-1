@@ -5,13 +5,13 @@
   display: flex;
 }
 
-.hero-content {
+.hero__content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-left: 14.25rem;
   background-image: url("../images/energy-2181904_1920-1.jpg");
-  width: 120rem;
+  width: 100%;
   height: 40rem;
   background-repeat: no-repeat;
   background-position: 0 -320px;
@@ -37,12 +37,12 @@
   padding-top: 0.5rem;
 }
 
-.hero-para {
+.hero-paragraph {
   font-family: $font;
   color: $white-color;
   font-size: 1.125rem;
   font-weight: 400;
   width: 34.5rem;
   height: 5.25rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }

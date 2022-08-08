@@ -2,7 +2,7 @@
 .nav__items {
   display: flex;
   justify-content: space-between;
-  width: 120rem;
+  width: 100%;
   padding-left: 6.75rem;
   padding-right: 6.75rem;
 }
@@ -10,7 +10,7 @@
 .navbar {
   display: flex;
   background-color: #87de87;
-  width: 120rem;
+  width: 100%;
   height: 6.3125rem;
 }
 .navbar .navbar__links {
@@ -39,6 +39,7 @@
   font-family: "Raleway";
   font-size: 1.125rem;
   font-weight: 700;
+  border: none;
 }
 
 .logo-name {
@@ -49,7 +50,7 @@
   margin-top: 1.125rem;
 }
 
-.logo__wrapper {
+.nav__logo-wrapper {
   display: flex;
   align-items: center;
 }
@@ -57,7 +58,7 @@
 .nav__items {
   display: flex;
   justify-content: space-between;
-  width: 120rem;
+  width: 100%;
   padding-left: 6.75rem;
   padding-right: 6.75rem;
 }
@@ -65,7 +66,7 @@
 .navbar {
   display: flex;
   background-color: #87de87;
-  width: 120rem;
+  width: 100%;
   height: 6.3125rem;
 }
 .navbar .navbar__links {
@@ -94,6 +95,7 @@
   font-family: "Raleway";
   font-size: 1.125rem;
   font-weight: 700;
+  border: none;
 }
 
 .logo-name {
@@ -104,7 +106,7 @@
   margin-top: 1.125rem;
 }
 
-.logo__wrapper {
+.nav__logo-wrapper {
   display: flex;
   align-items: center;
 }
@@ -113,13 +115,13 @@
   display: flex;
 }
 
-.hero-content {
+.hero__content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-left: 14.25rem;
   background-image: url("../images/energy-2181904_1920-1.jpg");
-  width: 120rem;
+  width: 100%;
   height: 40rem;
   background-repeat: no-repeat;
   background-position: 0 -320px;
@@ -145,26 +147,26 @@
   padding-top: 0.5rem;
 }
 
-.hero-para {
+.hero-paragraph {
   font-family: "Raleway";
   color: #ffffff;
   font-size: 1.125rem;
   font-weight: 400;
   width: 34.5rem;
   height: 5.25rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
-.card-content {
+.card__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 120rem;
+  width: 100%;
   height: 40rem;
   margin-top: 6.5rem;
 }
 
-.cards {
+.cards-wrapper {
   display: flex;
   justify-content: space-around;
   gap: 1.5rem;
@@ -172,7 +174,7 @@
   margin-top: 3.375rem;
 }
 
-.card-main-title {
+.card__content-title {
   display: flex;
   justify-content: center;
   font-family: "Raleway";
@@ -180,28 +182,28 @@
   font-size: 3rem;
 }
 
-.card-one,
-.card-two,
-.card-three {
+.card-one__content,
+.card-two__content,
+.card-three__content {
   background-color: #333333;
   height: 21.75rem;
   width: 34.5rem;
 }
 
-.card-logo-title {
+.card__main-content {
   display: flex;
   margin-top: 2rem;
   margin-left: 2rem;
   gap: 1.4rem;
 }
 
-.card-title-subtitle {
+.card__titles {
   display: flex;
   flex-direction: column;
   height: 3.5rem;
 }
 
-.card-one-logo {
+.card-one__logo {
   width: 7.5rem;
   height: 7.5rem;
   background-color: #87de87;
@@ -211,7 +213,7 @@
   background-image: url("../images/world.svg");
 }
 
-.card-two-logo {
+.card-two__logo {
   width: 7.5rem;
   height: 7.5rem;
   background-color: #87de87;
@@ -221,7 +223,7 @@
   background-image: url("../images/solar.svg");
 }
 
-.card-three-logo {
+.card-three__logo {
   width: 7.5rem;
   height: 7.5rem;
   background-color: #87de87;
@@ -231,7 +233,7 @@
   background-image: url("../images/wind.svg");
 }
 
-.card-title {
+.card__title {
   display: flex;
   font-family: "Raleway";
   font-weight: 600;
@@ -240,7 +242,7 @@
   margin-bottom: 0.625rem;
 }
 
-.card-subtitle {
+.card__subtitle {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 1.5rem;
@@ -249,7 +251,7 @@
   margin-top: 0;
 }
 
-.card-text {
+.card-paragraph {
   display: flex;
   font-family: "Raleway";
   font-weight: 400;
@@ -260,16 +262,16 @@
   padding-left: 2rem;
 }
 
-.main-content {
+.main__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 120rem;
+  width: 100%;
   height: 99.3125rem;
   background-color: #333333;
 }
 
-.card-content-title {
+.main__content-title {
   display: flex;
   font-family: "Raleway";
   font-weight: 700;
@@ -278,22 +280,22 @@
   margin-top: 4rem;
 }
 
-.section-one {
-  width: 120rem;
+.main__section-one {
+  width: 100%;
   height: 27.1875rem;
   display: flex;
   justify-content: space-around;
 }
 
-.section-two {
-  width: 120rem;
+.main__section-two {
+  width: 100%;
   height: 27.1875rem;
   display: flex;
   justify-content: space-around;
   margin-top: 10.8125rem;
 }
 
-.main-content-title {
+.main__title {
   font-family: "Raleway";
   color: #ffffff;
   font-weight: 600;
@@ -301,7 +303,7 @@
   margin-bottom: 0.75rem;
 }
 
-.main-content-text {
+.main__paragraph {
   font-family: "Raleway";
   color: #ffffff;
   font-weight: 400;
@@ -309,33 +311,26 @@
   margin-top: 0;
 }
 
-.main-text {
+.main__text {
   display: flex;
   flex-direction: column;
   width: 43.5rem;
   height: 27.1875rem;
 }
 
-.main-text-two {
-  display: flex;
-  flex-direction: column;
-  width: 43.5rem;
-  height: 27.1875rem;
-}
-
-.image-one {
+.main__image-one {
   width: 41.5rem;
   height: 30rem;
   border-right: solid 2rem #87de87;
 }
 
-.image-two {
+.main__image-two {
   width: 41.5rem;
   height: 30rem;
   border-left: solid 2rem #87de87;
 }
 
-.main-button {
+.main__btn {
   background-color: #87de87;
   width: 16.5rem;
   height: 4.5rem;
@@ -346,16 +341,16 @@
   margin-top: 10rem;
 }
 
-.card-content {
+.card__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 120rem;
+  width: 100%;
   height: 40rem;
   margin-top: 6.5rem;
 }
 
-.cards {
+.cards-wrapper {
   display: flex;
   justify-content: space-around;
   gap: 1.5rem;
@@ -363,7 +358,7 @@
   margin-top: 3.375rem;
 }
 
-.card-main-title {
+.card__content-title {
   display: flex;
   justify-content: center;
   font-family: "Raleway";
@@ -371,28 +366,28 @@
   font-size: 3rem;
 }
 
-.card-one,
-.card-two,
-.card-three {
+.card-one__content,
+.card-two__content,
+.card-three__content {
   background-color: #333333;
   height: 21.75rem;
   width: 34.5rem;
 }
 
-.card-logo-title {
+.card__main-content {
   display: flex;
   margin-top: 2rem;
   margin-left: 2rem;
   gap: 1.4rem;
 }
 
-.card-title-subtitle {
+.card__titles {
   display: flex;
   flex-direction: column;
   height: 3.5rem;
 }
 
-.card-one-logo {
+.card-one__logo {
   width: 7.5rem;
   height: 7.5rem;
   background-color: #87de87;
@@ -402,7 +397,7 @@
   background-image: url("../images/world.svg");
 }
 
-.card-two-logo {
+.card-two__logo {
   width: 7.5rem;
   height: 7.5rem;
   background-color: #87de87;
@@ -412,7 +407,7 @@
   background-image: url("../images/solar.svg");
 }
 
-.card-three-logo {
+.card-three__logo {
   width: 7.5rem;
   height: 7.5rem;
   background-color: #87de87;
@@ -422,7 +417,7 @@
   background-image: url("../images/wind.svg");
 }
 
-.card-title {
+.card__title {
   display: flex;
   font-family: "Raleway";
   font-weight: 600;
@@ -431,7 +426,7 @@
   margin-bottom: 0.625rem;
 }
 
-.card-subtitle {
+.card__subtitle {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 1.5rem;
@@ -440,7 +435,7 @@
   margin-top: 0;
 }
 
-.card-text {
+.card-paragraph {
   display: flex;
   font-family: "Raleway";
   font-weight: 400;
@@ -451,15 +446,15 @@
   padding-left: 2rem;
 }
 
-.imput-section {
+.input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 120rem;
+  width: 100%;
   height: 40rem;
 }
 
-.imput-title {
+.input__title {
   display: flex;
   justify-content: center;
   font-family: "Raleway";
@@ -468,7 +463,7 @@
   margin-top: 7.5rem;
 }
 
-.imput-para {
+.input__paragraph {
   width: 52.5rem;
   height: 3.875rem;
   font-family: "Raleway";
@@ -477,7 +472,7 @@
   text-align: center;
 }
 
-.email-imput {
+.input__email {
   width: 43.5rem;
   height: 4rem;
   margin-top: 2.75rem;
@@ -485,7 +480,7 @@
   border: 0.0313rem solid rgba(73, 72, 72, 0.5);
 }
 
-.email-imput::-moz-placeholder {
+.input__email::-moz-placeholder {
   font-family: "Raleway";
   font-weight: 400;
   font-style: italic;
@@ -494,7 +489,7 @@
   padding-left: 1.25rem;
 }
 
-.email-imput:-ms-input-placeholder {
+.input__email:-ms-input-placeholder {
   font-family: "Raleway";
   font-weight: 400;
   font-style: italic;
@@ -503,7 +498,7 @@
   padding-left: 1.25rem;
 }
 
-.email-imput::placeholder {
+.input__email::placeholder {
   font-family: "Raleway";
   font-weight: 400;
   font-style: italic;
@@ -512,7 +507,7 @@
   padding-left: 1.25rem;
 }
 
-.imput-button {
+.input__btn {
   width: 7.5rem;
   height: 3rem;
   background-color: #87de87;
@@ -525,48 +520,41 @@
   border: none;
 }
 
-.about-us {
-  width: 120rem;
+.about {
+  width: 100%;
   height: 26.5rem;
   background-color: #87de87;
   padding-top: 0.1rem;
 }
 
-.about-logo {
+.about__contact img {
   width: 13.9375rem;
   height: 4.875rem;
-  background-color: #ffffff;
-  margin-left: 10.9375rem;
+  padding-top: 3rem;
+  padding-left: 9.5rem;
 }
 
-.about-name {
-  font-family: "Raleway";
-  font-size: 3.8rem;
-  font-weight: 500;
-  padding-top: 2rem;
-}
-
-.about-columns {
+.about__columns {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 120rem;
+  width: 100%;
   padding-top: 1.875rem;
 }
 
-.about-title {
+.about__title {
   font-family: "Raleway";
   font-weight: 600;
   font-size: 1.125rem;
 }
 
-.about-title-main {
+.about__title-main {
   font-family: "Raleway";
   font-weight: 600;
   font-size: 1.5rem;
 }
 
-.about-box-one {
+.about__box-one {
   width: 3rem;
   height: 3rem;
   background-color: #333333;
@@ -576,7 +564,7 @@
   background-image: url("../images/facebook.svg");
 }
 
-.about-box-two {
+.about__box-two {
   width: 3rem;
   height: 3rem;
   background-color: #333333;
@@ -586,7 +574,7 @@
   background-image: url("../images/twitter.svg");
 }
 
-.about-box-three {
+.about__box-three {
   width: 3rem;
   height: 3rem;
   background-color: #333333;
@@ -596,7 +584,7 @@
   background-image: url("../images/linkedin.svg");
 }
 
-.about-box-four {
+.about__box-four {
   width: 3rem;
   height: 3rem;
   background-color: #333333;
@@ -614,13 +602,13 @@ a {
   text-decoration: none;
 }
 
-.about-title-logos {
+.about__logo {
   margin-top: 1.125rem;
   display: flex;
   gap: 1.5rem;
 }
 
-.about-content {
+.about__content {
   color: #333333;
   font-family: "Raleway";
   font-weight: 400;
@@ -628,11 +616,11 @@ a {
   margin-top: 0.625rem;
 }
 
-.footer-content {
+.footer__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 120rem;
+  width: 100%;
   height: 3rem;
   background-color: #333333;
 }
@@ -645,14 +633,14 @@ a {
   margin-left: 6.75rem;
 }
 
-.footer-security {
+.footer__security {
   color: #ffffff;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 1.125rem;
 }
 
-.footer-flex {
+.footer__flex {
   display: flex;
   gap: 2.25rem;
   margin-right: 6.75rem;
@@ -661,5 +649,4 @@ a {
 body {
   min-height: 95vh;
   margin: auto 0;
-  width: 120rem;
 }/*# sourceMappingURL=style.css.map */

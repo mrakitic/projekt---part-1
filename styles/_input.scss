@@ -1,15 +1,15 @@
 @import "_variables";
 @import "_card";
 
-.imput-section {
+.input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 120rem;
+  width: 100%;
   height: 40rem;
 }
 
-.imput-title {
+.input__title {
   display: flex;
   justify-content: center;
   font-family: $font;
@@ -18,7 +18,7 @@
   margin-top: 7.5rem;
 }
 
-.imput-para {
+.input__paragraph {
   width: 52.5rem;
   height: 3.875rem;
   font-family: $font;
@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-.email-imput {
+.input__email {
   width: 43.5rem;
   height: 4rem;
   margin-top: 2.75rem;
@@ -35,7 +35,7 @@
   border: 0.0313rem solid rgba(73, 72, 72, 0.5);
 }
 
-.email-imput::placeholder {
+.input__email::placeholder {
   font-family: $font;
   font-weight: 400;
   font-style: italic;
@@ -44,7 +44,7 @@
   padding-left: 1.25rem;
 }
 
-.imput-button {
+.input__btn {
   width: 7.5rem;
   height: 3rem;
   background-color: $green-color;
