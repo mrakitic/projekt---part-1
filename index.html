@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
     <title>Document</title>
   </head>
@@ -22,6 +23,11 @@
           <li><a class="nav-link" href="#">Contact</a></li>
           <li><button class="nav__button">GET IT NOW</button></li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </div>
     </nav>
     <section class="hero">
@@ -37,7 +43,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="cards">
       <div class="card__content">
         <p class="card__content-title">Section Title</p>
         <div class="cards-wrapper">
@@ -95,7 +101,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="main">
       <div class="main__content">
         <p class="main__content-title">Section Title</p>
         <div class="main__section-one">
@@ -179,6 +185,7 @@
     </section>
     <section>
       <div class="input">
+        <p class="input__glide-title">Section Title</p>
         <div class="glide">
           <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
@@ -314,12 +321,17 @@
         <p class="footer__security">Privacy</p>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="./js/script.js"></script>
     <script>
       const config = {
         type: "carousel",
         perView: 3.5,
         gap: 24,
+        breakpoints: {
+          485: {
+            perView: 1.25,
+          },
+        },
       };
       new Glide(".glide", config).mount();
     </script>
